@@ -2,6 +2,10 @@
 def display_board
   cell = "   "
   row = cell + "|" + cell + "|" + cell
+  row_seperator = "-----------"
   puts row
-
+  puts row_seperator
+  puts row
+  puts row_seperator
+  puts row
 end
